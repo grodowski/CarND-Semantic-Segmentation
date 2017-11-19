@@ -1,4 +1,24 @@
 # Semantic Segmentation
+
+The solution uses the pretrained VGG network with 1x1 convolutions and two skip layers, as suggested by the project setup.
+
+Segmentation results:
+
+![sample1](sample1.png)
+![sample2](sample2.png)
+![sample3](sample3.png)
+![sample4](sample4.png)
+![sample5](sample5.png)
+![sample6](sample6.png)
+![sample7](sample7.png)
+
+Future `TODO`s that weren't completed due to time constraints:
+
+- optimise the model, tune hyperparameters, add regularization
+- test the segmentation on own road images
+- complete optional tasks
+- add a mIoU metric
+
 ### Introduction
 In this project, you'll label the pixels of a road in images using a Fully Convolutional Network (FCN).
 
@@ -31,6 +51,6 @@ python main.py
  - `main.py`
  - `project_tests.py`
  - Newest inference images from `runs` folder  (**all images from the most recent run**)
- 
+
  ## How to write a README
 A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
